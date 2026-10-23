@@ -5,7 +5,7 @@ runs:
   steps:
     - shell: bash
       run: |
-        echo "x marker: v2"
+        echo "x marker: v3"
         echo "x action_path: ${{ github.action_path }}"
         echo "x action_repository: ${{ github.action_repository }}"
         echo "x action_ref: ${{ github.action_ref }}"
