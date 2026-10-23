@@ -1,0 +1,11 @@
+name: x
+description: Action de test x
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: |
+        echo "x marker: v1"
+        echo "x action_path: ${{ github.action_path }}"
+        echo "x action_repository: ${{ github.action_repository }}"
+        echo "x action_ref: ${{ github.action_ref }}"
